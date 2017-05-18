@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item    android:id="@+id/mnu_news"
+            android:icon="@drawable/ic_action_news"
+            android:title="News"
+            />
+        <item    android:id="@+id/mnuu_course"
+            android:icon="@drawable/ic_action_course"
+            android:title="Training Courses"
+            />
+        <item    android:id="@+id/mnu_profile"
+            android:icon="@drawable/ic_action_profile"
+            android:title="Profile"
+            />
+        <item    android:id="@+id/mnu_feedback"
+            android:icon="@drawable/ic_action_ffeedback"
+            android:title="FeedBack"/>
+        <item    android:id="@+id/mnu_contact"
+            android:icon="@drawable/ic_action_contact"
+            android:title="Contact Us"
+            />
+    </group>
+
+
+
+</menu>

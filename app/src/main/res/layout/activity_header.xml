@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:padding="15dp"
+    android:background="@color/colorPrimary">
+
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/hyuk"/>
+    <TextView
+        android:id="@+id/txt_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="khantey@abc.com"
+        android:textColor="@android:color/white"/>
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="wrap_content"
+        android:layout_above="@id/txt_email"
+        android:layout_height="wrap_content"
+        android:text="Hyukie Ai"
+        android:textColor="@android:color/white"/>
+    <TextView
+        android:id="@+id/txt_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="Log Out"
+        android:textColor="@android:color/white"/>
+
+</RelativeLayout>
